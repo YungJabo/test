@@ -1,0 +1,18 @@
+.section{
+    font-family: "Poppins";
+    &__title,
+        &__subtitle {
+            text-align: center;
+        }
+    
+        &__title {
+            font-size: 48px;
+        }
+    
+        &__subtitle {
+            margin-top: 50px;
+            color: #666666;
+            margin-bottom: 146px;
+            font-size: 32px;
+        }
+}
