@@ -51,13 +51,14 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 500;
 }
 .header__menu {
   display: flex;
   gap: 50px;
 }
 .header__menu__items {
-  margin-top: 8px;
   display: flex;
   gap: 65px;
   color: #666666;
@@ -73,9 +74,16 @@ body {
   text-align: center;
 }
 .section__title {
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 26px;
   font-size: 48px;
+  color: rgb(66, 68, 110);
 }
 .section__subtitle {
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 26px;
   margin-top: 50px;
   color: #666666;
   margin-bottom: 146px;
@@ -90,6 +98,10 @@ body {
 .hello__text {
   color: #42446E;
   font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
 }
 .hello__text--gradient {
   background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
@@ -126,10 +138,10 @@ body {
 .stack__list {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(2, auto);
   row-gap: 90px;
-  column-gap: 100px;
+  justify-content: space-between;
 }
 .stack__img--git {
   color: black;
@@ -146,10 +158,10 @@ body {
 }
 .projects__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
   row-gap: 62px;
-  grid-auto-flow: row dense;
+  justify-content: space-between;
 }
 .projects__item {
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
@@ -162,10 +174,15 @@ body {
   padding: 27px 30px;
 }
 .projects__item__title {
+  font-weight: 500;
+  line-height: 26px;
   font-size: 28px;
   margin-bottom: 17px;
 }
 .projects__item__subtitle {
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
   color: rgb(102, 102, 102);
   margin-bottom: 12px;
   font-size: 18px;
@@ -175,6 +192,7 @@ body {
   font-size: 14px;
   color: rgb(102, 102, 102);
   margin-bottom: 21px;
+  font-weight: 300;
 }
 .projects__item__stack--bold {
   color: #42446E;
@@ -182,6 +200,10 @@ body {
   font-weight: 400;
 }
 .projects__item__links {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
   display: flex;
   justify-content: space-between;
 }
@@ -193,7 +215,6 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 16px;
 }
 .projects__item__link-block__link {
   text-decoration: underline;
@@ -207,6 +228,8 @@ body {
   font-family: "DM Sans";
 }
 .footer__license {
+  font-weight: 400;
+  line-height: 26px;
   margin-right: 16px;
   font-size: 18px;
   background: linear-gradient(-90deg, #E70FAA 0%, #00C0FD 100%);
@@ -228,6 +251,9 @@ body {
   height: 30px;
 }
 .footer__menu__items {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
   display: flex;
   gap: 63px;
   color: rgb(66, 68, 110);

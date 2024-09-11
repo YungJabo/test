@@ -2,13 +2,15 @@
     display: flex;
     justify-content: space-between;
     font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 500;
     &__menu{
         display: flex;
         gap: 50px;
         // align-items: center;
        
         &__items{
-            margin-top: 8px;
+           
             display: flex;
             gap: 65px;
             color:#666666;

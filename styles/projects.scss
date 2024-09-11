@@ -2,10 +2,11 @@
     margin-top: 214px;
     &__list{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto);
         row-gap: 62px;
-        grid-auto-flow: row dense;
+        justify-content: space-between;
+        
     }
     &__item{
         box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
@@ -13,14 +14,27 @@
         width: 375px;
         overflow: hidden;
         display: block;
+        
         &__about{
             padding: 27px 30px;
         }
         &__title{
+            
+
+    font-weight: 500;
+    line-height: 26px;
+   
+
             font-size: 28px;
             margin-bottom: 17px;
         }
         &__subtitle{
+            
+
+font-weight: 300;
+line-height: 26px;
+text-align: left;
+
             color: rgba(102, 102, 102, 1);
             margin-bottom: 12px;
             font-size: 18px;
@@ -31,6 +45,7 @@
             font-size: 14px;
             color: rgba(102, 102, 102, 1);
             margin-bottom: 21px;
+            font-weight: 300;
             &--bold{
                 color: #42446E;
                 font-size: 16px;
@@ -38,6 +53,12 @@
             }
         }
         &__links{
+            
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
             display: flex;
             justify-content: space-between;
             img{
@@ -49,7 +70,7 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            font-size: 16px;
+            
             &__link{
                 text-decoration: underline;
             }

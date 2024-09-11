@@ -5,6 +5,13 @@
     &__text{
         color: #42446E;
         font-size: 58px;
+        
+
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+
         &--gradient{
             background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
             -webkit-background-clip: text; 
